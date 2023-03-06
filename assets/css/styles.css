@@ -518,7 +518,8 @@ img {
 
 /* los puntos en las (SKILLS) */
 .skills__circle,
-.languages__circle {
+.languages__circle,
+.interes__circle {
   display: inline-block;
   width: 5px;
   height: 5px;

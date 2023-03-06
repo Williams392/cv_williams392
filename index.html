@@ -12,7 +12,7 @@
 
     <link rel="stylesheet" href="assets/css/styles.css" />
 
-    <title>Responsive resume cv</title>
+    <title>cv_valle</title>
   </head>
 
   <body>
@@ -31,12 +31,6 @@
             </li>
 
             <li class="nav__item">
-              <a href="#profile" class="nav__link">
-                <i class="bx bx-user nav__icon"></i>Profile
-              </a>
-            </li>
-
-            <li class="nav__item">
               <a href="#education" class="nav__link">
                 <i class="bx bx-book nav__icon"></i>Education
               </a>
@@ -45,6 +39,12 @@
             <li class="nav__item">
               <a href="#skills" class="nav__link">
                 <i class="bx bx-receipt nav__icon"></i>Skills
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#profile" class="nav__link">
+                <i class="bx bx-user nav__icon"></i>SOBRE MÍ
               </a>
             </li>
 
@@ -165,16 +165,17 @@
           </section>
 
           <!--========== PROFILE ==========-->
-          <section class="profile section" id="profile">
+          <!-- <section class="profile section" id="profile">
             <h2 class="section-title">Profile</h2>
 
             <p class="profile__description">
-              Soy un estudiante autodidacta de programación con conocimiento en
-              el desarrollo de aplicaciones de escritorio y desarrollo web
-              ASP.Net en búsqueda de mi primera experiencia laboral en el mundo
-              IT.
+              Busco una posición en el mundo IT que me permita aplicar y
+              continuar desarrollando mis habilidades en programación. tengo
+              conocimientos en desarrollo de aplicaciones .NET y Desarrollador
+              Backend Python (Django), estoy en busca de mi primera experiencia
+              laboral en este campo.
             </p>
-          </section>
+          </section> -->
 
           <!--========== EDUCATION ==========-->
           <section class="education section" id="education">
@@ -204,10 +205,23 @@
 
                 <div class="education__data bd-grid">
                   <h3 class="education__title">DESARROLLADOR .NET</h3>
-                  <span class="education__studies">Udemy</span>
+                  <span class="education__studies">Udemy - UPN</span>
                   <span class="education__year">2022 - Agosto</span>
                 </div>
               </div>
+              <!-- 
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <span class="education__line"></span>
+                </div>
+
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">Desarrollador FRONT-END</h3>
+                  <span class="education__studies">OpenBootcamp</span>
+                  <span class="education__year">2022 - Agosto</span>
+                </div>
+              </div> -->
 
               <div class="education__content">
                 <div class="education__time">
@@ -216,9 +230,11 @@
                 </div>
 
                 <div class="education__data bd-grid">
-                  <h3 class="education__title">Desarrollador FRONT-END</h3>
-                  <span class="education__studies">OpenBootcamp</span>
-                  <span class="education__year">2022 - Agosto</span>
+                  <h3 class="education__title">
+                    Desarrollador Backend Python (Django)
+                  </h3>
+                  <span class="education__studies">LoopGk Academy</span>
+                  <span class="education__year">2023 - Agosto</span>
                 </div>
               </div>
             </div>
@@ -245,9 +261,17 @@
                 <li class="skills__name">
                   <span class="skills__circle"></span>C#
                 </li>
+
+                <li class="skills__name">
+                  <span class="skills__circle"></span>GitHub
+                </li>
               </ul>
 
               <ul class="skills__data">
+                <li class="skills__name">
+                  <span class="skills__circle"></span>Django(Python)
+                </li>
+
                 <li class="skills__name">
                   <span class="skills__circle"></span>.NET
                 </li>
@@ -257,18 +281,52 @@
                 </li>
 
                 <li class="skills__name">
-                  <span class="skills__circle"></span>Django(Python)
+                  <span class="skills__circle"></span>SQL Server
                 </li>
 
                 <li class="skills__name">
-                  <span class="skills__circle"></span>GitHub
+                  <span class="skills__circle"></span>PostgreSQL
                 </li>
               </ul>
+            </div>
+          </section>
+
+          <!--========== interes ==========-->
+          <section class="profile section" id="profile">
+            <h2 class="section-title">trabajo busco?</h2>
+
+            <div class="interes__container">
+              <div class="interes__content bd-grid">
+                <ul class="interes__content bd-grid">
+                  <li class="interes__name">
+                    <span class="interes__circle"></span>Perú, Lima, Trabajo
+                    Remoto.
+                  </li>
+
+                  <li class="interes__name">
+                    <span class="interes__circle"></span>No tengo empleo.
+                  </li>
+                </ul>
+              </div>
             </div>
           </section>
         </div>
 
         <div class="resume__right">
+          <!--========== Profile ==========-->
+          <section class="profile section" id="profile">
+            <h2 class="section-title">SOBRE MÍ</h2>
+
+            <p class="profile__description">
+              Busco una posición en el mundo IT que me permita aplicar y
+              continuar desarrollando mis habilidades en programación. tengo
+              conocimientos en desarrollo de aplicaciones .NET con C# (enfocado
+              en el desarrollo de aplicaciones de Windows Forms y SQL Server). y
+              Desarrollador Backend Python (Django), estoy en busca de mi
+              primera experiencia laboral en el mundo IT.
+            </p>
+          </section>
+
           <!--========== EXPERIENCE ==========-->
           <section class="experience section" id="experience">
             <h2 class="section-title">Experience - Autónoma</h2>
@@ -286,10 +344,16 @@
                   </h3>
                   <span class="experience__company">Enero. 2021</span>
                   <p class="experience__description">
-                    Uso de wallets, Uso de consola, Uso de software de minado
-                    Hive OS, Conexiones eléctricas y consumo y Conocimiento de
-                    hardware, Instalación y flash de BIOS en placas madre y de
-                    video.
+                    Experiencia práctica en el armado de computadoras
+                    personalizadas, incluyendo la selección de componentes de
+                    hardware, la instalación de componentes,la configuración del
+                    BIOS, Conocimiento en conexiones eléctricas y consumo de
+                    energía.
+                  </p>
+                  <p class="experience__description">
+                    Experiencia en la minería de criptomonedas, incluyendo el
+                    uso de wallets, la configuración de de software de minería
+                    como Hive OS y consolas.
                   </p>
                 </div>
               </div>
@@ -341,10 +405,7 @@
                 <h3 class="certificate__title">
                   Desarrollador Backend Python (Django)
                 </h3>
-                <p class="certificate__description">
-                  LoopGk Academy Bootcamp intensivo de Desarrollador Backend
-                  Python (Django)
-                </p>
+                <p class="certificate__description">LoopGk Academy</p>
               </div>
 
               <div class="certificate__content">
@@ -356,10 +417,7 @@
 
               <div class="certificate__content">
                 <h3 class="certificate__title">Desarrollador web Front-end</h3>
-                <p class="certificate__description">
-                  Desarrollador de paginas web en OpenBootcamp. Desarrollador
-                  Backend Python (Django)
-                </p>
+                <p class="certificate__description">OpenBootcamp - Udemy</p>
               </div>
             </div>
           </section>
@@ -406,7 +464,7 @@
           </section>
 
           <!--========== INTERESTS ==========-->
-          <section class="interests section">
+          <!-- <section class="interests section">
             <h2 class="section-title">Interests</h2>
 
             <div class="interests__container bd-grid">
@@ -429,7 +487,7 @@
                 <span class="interests__name">Fútbol</span>
               </div>
             </div>
-          </section>
+          </section> -->
         </div>
       </div>
     </main>
