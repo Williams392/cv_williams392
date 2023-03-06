@@ -114,9 +114,10 @@ body.scale-cv {
 
 /* -----> ancho del (borde)  0.81rem? */
 .scale-cv .section {
-  padding: 1.25rem 0 0.81rem;
+  padding: 1.25rem 0 0.8rem;
 }
 
+/* ACCCAAAA */
 .scale-cv .section-title {
   margin-bottom: 0.75rem;
 }
@@ -232,7 +233,13 @@ img {
 
 /* ancho de los (bordes) Original -> 1.5rem */
 .section {
-  padding: 1.5rem 0;
+  padding: 1.2rem 0;
+}
+.sectionSkills {
+  padding: 0.95rem 0;
+}
+.sectionInteres {
+  padding: 1rem 0;
 }
 
 .section-title {
@@ -256,6 +263,11 @@ img {
 .bd-grid {
   display: grid;
   gap: 1.5rem;
+}
+
+.bd-interes {
+  display: grid;
+  gap: 0.5rem;
 }
 
 .l-header {
@@ -353,7 +365,7 @@ img {
 
 /* --> ancho del (borde) img -> Original 3rem*/
 .home__container {
-  gap: 3rem;
+  gap: 2.5rem;
 }
 
 .home__data {
@@ -513,7 +525,8 @@ img {
 .languages__name {
   display: flex;
   align-items: center;
-  margin-bottom: var(--mb-3);
+  margin-bottom: var(--mb-2);
+  /* margin-bottom: var(--mb-3); --> original*/
 }
 
 /* los puntos en las (SKILLS) */
