@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--========== BOX ICONS ==========-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <link rel="stylesheet" type="text/css" href="print.css" media="print" />
+
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>cv_valle</title>
+  </head>
+
+  <body>
+    <!--========== HEADER ==========-->
+    <!-- https://boxicons.com/ (los iconos)-->
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <a href="#" class="nav__logo">Williams</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="bx bx-home nav__icon"></i>Home
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#education" class="nav__link">
+                <i class="bx bx-book nav__icon"></i>Education
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="bx bx-receipt nav__icon"></i>Sk1ills
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#interes" class="nav__link">
+                <i class="bx bx-link-external nav__icon"></i>Interés
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#profile" class="nav__link">
+                <i class="bx bx-user nav__icon"></i>SOBRE MÍ
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#experience" class="nav__link">
+                <i class="bx bx-briefcase-alt nav__icon"></i>Experience
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#certificates" class="nav__link">
+                <i class="bx bx-award nav__icon"></i>Certificates
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-grid-alt"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main bd-container">
+      <!-- All elements within this div, is generated in PDF -->
+      <div class="resume" id="area-cv">
+        <div class="resume__left">
+          <!--========== HOME ==========-->
+          <section class="home" id="home">
+            <!-- Theme change button -->
+            <div class="home__container section bd-grid">
+              <div class="home__data bd-grid">
+                <img src="assets/img/perfil2.jpg" alt"" class="home__img">
+
+                <h1 class="home__title">WILLIAMS <b>VALLE</b></h1>
+                <h3 class="home__profession">
+                  Desarrollador .NET | Backend Python (Django)
+                </h3>
+
+                <!-- pdf -->
+                <div>
+                  <a
+                    download=""
+                    href="assets/pdf/ResumeCv.pdf"
+                    class="home__button-movil"
+                    >Download</a
+                  >
+                </div>
+              </div>
+
+              <div class="home__address bd-grid">
+                <span class="home__information">
+                  <i class="bx bx-map home__icon"></i> Perú, Lima, Comas 15316
+                </span>
+                <span class="home__information">
+                  <i class="bx bx-envelope home__icon"></i>
+                  williamsvalle392@gmail.com
+                </span>
+                <span class="home__information">
+                  <i class="bx bx-phone home__icon"></i> 994-468-279
+                </span>
+              </div>
+            </div>
+
+            <!-- Theme change button -->
+            <i
+              class="bx bx-moon change-theme"
+              title="theme"
+              id="theme-button"
+            ></i>
+
+            <!-- Boton para generar y descargar el pdf. Disponible para escritorio. -->
+            <i
+              class="bx bx-download generate-pdf"
+              title="Generate PDF"
+              id="resume-button"
+            ></i>
+          </section>
+
+          <!--========== SOCIAL ==========-->
+          <section class="social section">
+            <h2 class="section-title">SOCIAL</h2>
+
+            <div class="social__container bd-grid">
+              <a
+                href="https://www.linkedin.com/in/williams-valle-dextre-6b023a244/"
+                target="_blank"
+                class="social__link"
+              >
+                <i class="bx bxl-linkedin-square social__icon"></i> @Williams
+                Valle Dextre
+              </a>
+
+              <a
+                href="https://github.com/Williams392"
+                target="_blank"
+                class="social__link"
+              >
+                <i class="bx bxl-github social__icon"></i> @Williams392
+              </a>
+
+              <a
+                i
+                href="https://www.instagram.com/williams392_/?hl=en"
+                target="_blank"
+                href=""
+                class="social__link"
+              >
+                <i class="bx bxl-instagram social__icon"></i> @Williams392
+              </a>
+            </div>
+          </section>
+
+          <!--========== PROFILE ==========-->
+          <!-- <section class="profile section" id="profile">
+            <h2 class="section-title">Profile</h2>
+
+            <p class="profile__description">
+              Busco una posición en el mundo IT que me permita aplicar y
+              continuar desarrollando mis habilidades en programación. tengo
+              conocimientos en desarrollo de aplicaciones .NET y Desarrollador
+              Backend Python (Django), estoy en busca de mi primera experiencia
+              laboral en este campo.
+            </p>
+          </section> -->
+
+          <!--========== EDUCATION ==========-->
+          <section class="education section" id="education">
+            <h2 class="section-title">EDUCACIÓN</h2>
+
+            <div class="education__container bd-grid">
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <span class="education__line"></span>
+                </div>
+
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">
+                    Universidad Privada del Norte
+                  </h3>
+                  <span class="education__studies">INGENIERÍA DE SISTEMAS</span>
+                  <span class="education__year">2021 - Proceso</span>
+                </div>
+              </div>
+
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <span class="education__line"></span>
+                </div>
+
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">UPN - Udemy</h3>
+                  <span class="education__studies">DESARROLLADOR .NET</span>
+                  <span class="education__year">2022 - Agosto</span>
+                </div>
+              </div>
+              <!-- 
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <span class="education__line"></span>
+                </div>
+
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">Desarrollador FRONT-END</h3>
+                  <span class="education__studies">OpenBootcamp</span>
+                  <span class="education__year">2022 - Agosto</span>
+                </div>
+              </div> -->
+
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <!-- <span class="education__line"></span> -->
+                </div>
+
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">Bootcamp LoopGk Academy</h3>
+                  <span class="education__studies"
+                    >Desarrollador Backend Python (Django)</span
+                  >
+                  <span class="education__year">2023 - Marzo</span>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!--========== SKILLS  ==========-->
+          <!-- <section class="skills section" id="skills"> (Original) -->
+          <section class="skills sectionSkills" id="skills">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills__content bd-grid">
+              <ul class="skills__data">
+                <li class="skills__name">
+                  <span class="skills__circle"></span>Html
+                </li>
+
+                <li class="skills__name">
+                  <span class="skills__circle"></span>Css
+                </li>
+
+                <li class="skills__name">
+                  <span class="skills__circle"></span>JavaSript
+                </li>
+
+                <li class="skills__name">
+                  <span class="skills__circle"></span>C#
+                </li>
+
+                <li class="skills__name">
+                  <span class="skills__circle"></span>Python
+                </li>
+
+                <li class="skills__name">
+                  <span class="skills__circle"></span>Git
+                </li>
+              </ul>
+
+              <ul class="skills__data">
+                <li class="skills__name">
+                  <span class="skills__circle"></span>GitHub
+                </li>
+
+                <li class="skills__name">
+                  <span class="skills__circle"></span>Django
+                </li>
+
+                <li class="skills__name">
+                  <span class="skills__circle"></span>.NET
+                </li>
+
+                <li class="skills__name">
+                  <span class="skills__circle"></span>React
+                </li>
+
+                <li class="skills__name">
+                  <span class="skills__circle"></span>SQL Server
+                </li>
+
+                <li class="skills__name">
+                  <span class="skills__circle"></span>PostgreSQL
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <!--========== interes ==========-->
+          <section class="profile sectionInteres" id="interes">
+            <h2 class="section-title">trabajo busco?</h2>
+
+            <div class="interes__container">
+              <div class="interes__content bd-interes">
+                <ul class="interes__content bd-interes">
+                  <li class="interes__name">
+                    <span class="interes__circle"></span>Perú, Lima, Trabajo
+                    Remoto.
+                  </li>
+
+                  <li class="interes__name">
+                    <span class="interes__circle"></span>No tengo empleo.
+                  </li>
+
+                  <li class="interes__name">
+                    <span class="interes__circle"></span>Turno Tarde - Noche.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div class="resume__right">
+          <!--========== Profile ==========-->
+          <section class="profile section" id="profile">
+            <h2 class="section-title">SOBRE MÍ</h2>
+
+            <p class="profile__description">
+              Busco una posición en el mundo IT que me permita aplicar y
+              continuar desarrollando mis habilidades en programación. tengo
+              conocimientos en desarrollo de aplicaciones .Net (enfocado en el
+              desarrollo de aplicaciones de Windows Forms y SQL Server). y
+              Desarrollador Backend Python (Django), estoy en busca de mi
+              primera experiencia laboral en el mundo IT.
+            </p>
+          </section>
+
+          <!--========== EXPERIENCE ==========-->
+          <section class="experience section" id="experience">
+            <h2 class="section-title">Experience - Autónoma</h2>
+
+            <div class="experience__container bd-grid">
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
+
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">
+                    MANTENIMIENTO INFORMATICO - Minería de Criptomonedas
+                  </h3>
+                  <span class="experience__company">Enero. 2021</span>
+                  <p class="experience__description">
+                    Experiencia práctica en el armado de computadoras
+                    personalizadas, incluyendo la selección de componentes de
+                    hardware, la instalación de componentes,la configuración del
+                    BIOS, Conocimiento en conexiones eléctricas y consumo de
+                    energía.
+                  </p>
+                  <p class="experience__description">
+                    Experiencia en la minería de criptomonedas, incluyendo el
+                    uso de wallets, la configuración de de software de minería
+                    como Hive OS y consolas.
+                  </p>
+                </div>
+              </div>
+
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
+
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">Desarrollador .NET</h3>
+                  <span class="experience__company">Agosto. 2022</span>
+                  <p class="experience__description">
+                    Experiencia práctica en el desarrollo de aplicaciones de
+                    escritorio con c# - Visual Studio (enfocado en el desarrollo
+                    de aplicaciones de Windows Forms con .NET Framework y SQL
+                    Server).
+                  </p>
+                </div>
+              </div>
+
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <!-- <span class="experience__line"></span> -->
+                </div>
+
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">
+                    Desarrollador Backend Python (Django)
+                  </h3>
+                  <span class="experience__company">Marzo. 2023</span>
+                  <p class="experience__description">
+                    experiencia en la creación de aplicaciones y servicios de
+                    servidor, enfocado en la lógica de negocios, gestión de
+                    bases de datos y creación de APIs.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!--========== CERTIFICATES ==========-->
+          <section class="certificate section" id="certificates">
+            <h2 class="section-title">Certificates</h2>
+
+            <div class="certificate__container bd-grid">
+              <div class="certificate__content">
+                <h3 class="certificate__title">
+                  Desarrollador Backend Python (Django)
+                </h3>
+                <p class="certificate__description">LoopGk Academy</p>
+              </div>
+
+              <div class="certificate__content">
+                <h3 class="certificate__title">Desarrollador .Net</h3>
+                <p class="certificate__description">
+                  Manejo de aplicaiones de escritorio con C# en Udemy.
+                </p>
+              </div>
+
+              <div class="certificate__content">
+                <h3 class="certificate__title">Desarrollador web Front-end</h3>
+                <p class="certificate__description">OpenBootcamp - Udemy</p>
+              </div>
+            </div>
+          </section>
+
+          <!--========== REFERENCES ==========-->
+          <!-- <section class="references section" id="references">
+            <h2 class="section-title">References</h2>
+
+            <div class="references__container bd-grid">
+              <div class="references__content bd-grid">
+                <span class="references__subtitle">Sr. Director</span>
+                <h3 class="references__title">Mr. Clay Doe</h3>
+                <ul class="references__contact">
+                  <li>Phone: 999-777-666</li>
+                  <li>Email: aea@gmail.com</li>
+                </ul>
+              </div>
+
+              <div class="references__content bd-grid">
+                <span class="references__subtitle">Sr. Kevin</span>
+                <h3 class="references__title">Mr. Robbinson</h3>
+                <ul class="references__contact">
+                  <li>Phone: 944-777-666</li>
+                  <li>Email: aea@gmail.com</li>
+                </ul>
+              </div>
+            </div>
+          </section> -->
+
+          <!--========== LANGUAGES ==========-->
+          <section class="languages section">
+            <h2 class="section-title">Languages</h2>
+
+            <div class="languages__container">
+              <ul class="languages__content bd-grid">
+                <li class="languages__name">
+                  <span class="languages__circle"></span> Español-Nativo
+                </li>
+                <li class="languages__name">
+                  <span class="languages__circle"></span> English-Basico
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <!--========== INTERESTS ==========-->
+          <!-- <section class="interests section">
+            <h2 class="section-title">Interests</h2>
+
+            <div class="interests__container bd-grid">
+              <div class="interests__content">
+                <i class="bx bx-headphone interests__icon"></i>
+                <span class="interests__name">Music</span>
+              </div>
+
+              <div class="interests__content">
+                <i class="bx bxs-plane-alt interests__icon"></i>
+                <span class="interests__name">Travel</span>
+              </div>
+
+              <div class="interests__content">
+                <i class="bx bxs-movie interests__icon"></i>
+                <span class="interests__name">Cine</span>
+              </div>
+              <div class="interests__content">
+                <i class="bx bx-football interests__icon"></i>
+                <span class="interests__name">Fútbol</span>
+              </div>
+            </div>
+          </section> -->
+        </div>
+      </div>
+    </main>
+
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+      <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
+    </a>
+
+    <!--========== HTML2PDF ==========-->
+    <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
